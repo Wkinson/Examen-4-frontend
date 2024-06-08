@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container-navbar">
+        <img
+          id="header-img"
+          src="./items/latan logo sensillo horizontal.png"
+          alt="logo de mi landing page"
+        />
+        <nav id="nav-bar">
+          <ul id="list-navbar">
+            <li class="item-list">
+              <a class="nav-link" href="#email">Email</a>
+            </li>
+            <li class="item-list">
+              <a class="nav-link" href="#conoceme">Conoceme</a>
+            </li>
+            <li class="item-list">
+              <a class="nav-link" href="#intro-frontend">Intro-frontend</a>
+            </li>
+            <li class="item-list">
+              <a class="nav-link" href="#about-me-section">About-me-section</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container-menu">
+          <button class="menu">menu</button>
+        </div>
+
+        <ul class="dropdown-menu">
+          <li class="item-list">
+            <a class="nav-link" href="#email">Email</a>
+          </li>
+          <li class="item-list">
+            <a class="nav-link" href="#conoceme">Conoceme</a>
+          </li>
+          <li class="item-list">
+            <a class="nav-link" href="#intro-frontend">Intro-frontend</a>
+          </li>
+          <li class="item-list">
+            <a class="nav-link" href="#about-me-section">About-me-section</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- the sections -->
+    <main>
+      <section id="email" class="section-email">
+        <h2 class="email-saludo">
+          hola bienvenido a mi ladding page, dejame tu email para este examen.
+        </h2>
+        <form class="form-email" action="">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="email"
+            placeholder="Introduzca su correo electrónico"
+          />
+          <input
+            class="submit"
+            type="submit"
+            value="enviar"
+            id="submit"
+            formaction="https://www.freecodecamp.com/email-submit"
+          />
+        </form>
+      </section>
+      <section id="conoceme" class="section-skill">
+        <div class="tool-skills">
+          <ul class="skills-dev">
+            <li class="skill-dev">
+              <div class="title-box">
+                <img
+                  class="img-icom"
+                  src="./items/html-5.png"
+                  alt="lenguaje de etiqueta HTML"
+                />
+                <h2 class="title-dev">HTML</h2>
+              </div>
+              <p class="description-dev">
+                HTML (Hyper Text Markup Language) es el lenguaje de marcado
+                estándar para crear páginas web. Con HTML, puedes formatear
+                texto, agregar gráficos, crear enlaces, formularios de entrada,
+                marcos y tablas, entre otras cosas. Básicamente, HTML describe
+                la estructura de una página web y utiliza elementos para indicar
+                al navegador cómo mostrar el contenido.
+              </p>
+            </li>
+            <li class="skill-dev">
+              <div class="title-box">
+                <img
+                  class="img-icom"
+                  src="./items/css-3.png"
+                  alt="icon del css-3"
+                />
+                <h2 class="title-dev">CSS</h2>
+              </div>
+
+              <p class="description-dev">
+                CSS Hojas de Estilo en Cascada (del inglés Cascading Style
+                Sheets) o CSS es el lenguaje de estilos utilizado para describir
+                la presentación de documentos HTML o XML (en-US) (incluyendo
+                varios lenguajes basados en XML como SVG, MathML o XHTML). CSS
+                describe cómo debe ser renderizado el elemento estructurado en
+                la pantalla, en papel, en el habla o en otros medios.
+              </p>
+            </li>
+            <li class="skill-dev">
+              <div class="title-box">
+                <img class="img-icom" src="./items/js.png" alt="icon del " />
+                <h2 class="title-dev">JavaScript</h2>
+              </div>
+
+              <p class="description-dev">
+                JavaScript es un lenguaje de programación dinámico y
+                multi-paradigma utilizado para hacer que las páginas web sean
+                interactivas.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="conoceme-Skills">
+          <ul class="general-skills">
+            <li class="title-hability">habilidades!!!</li>
+
+            <li class="General-Skill">
+              <h2 class="title-skill">Resolución de problemas</h2>
+              <p class="description-skills">
+                Los desarrolladores web se enfrentan a desafíos técnicos
+                constantemente. La capacidad para resolver problemas de manera
+                creativa y eficiente es crucial. Analizar errores, depurar
+                código y encontrar soluciones efectivas son habilidades
+                esenciales.
+              </p>
+            </li>
+            <li class="General-Skill">
+              <h2 class="title-skill">Comunicación</h2>
+              <p class="description-skills">
+                La comunicación efectiva es clave. Los desarrolladores web deben
+                ser capaces de: Explicar sus ideas y soluciones a colegas no
+                técnicos.Colaborar con diseñadores, especialistas en marketing y
+                otros miembros del equipo. Documentar su código para que otros
+                puedan entenderlo.
+              </p>
+            </li>
+            <li class="General-Skill">
+              <h2 class="title-skill">Trabajo en Equipo</h2>
+              <p class="description-skills">
+                Muchos proyectos web requieren colaboración. Los desarrolladores
+                web deben ser buenos compañeros de equipo. Trabajar con otros
+                desarrolladores, diseñadores y especialistas en diferentes áreas
+                es fundamental.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="intro-frontend" class="intro-frontend">
+        <div class="intro">
+          <h1 class="title-intro">que debes aprender?</h1>
+          <p class="description-intro">
+            Cada hora que inviertas en aprender te acerca a tus metas. Mantén la
+            dedicación constante. Experimenta con diferentes tecnologías y
+            enfoques con HTML, CSS, JavaScript entre otros. La exploración te
+            ayudará a crecer.
+          </p>
+        </div>
+        <div class="div-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/q0UgClC8md4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p class="agradeciento">
+            Agradecimientos a Holamundon por el video que creo
+          </p>
+        </div>
+      </section>
+      <section id="about-me-section" class="about-me-section">
+        <div class="the-foto">
+          <figure class="my-foto">
+            <img
+              src="./items/my foto.png"
+              alt="el desarrollador que creo esta pagina web"
+              class="my-foto"
+            />
+          </figure>
+        </div>
+
+        <div class="all-of-me">
+          <details class="detail-skill">
+            <summary class="my-point">Mi descripcion</summary>
+            <p class="description-point">
+              hola mi hombre es Will Kinson Serrano, soy estudiante de
+              información o como me gusta llamarlo desarrollador web, me gusta
+              poder demostrar todos mi potencial paea el desarrollo de
+              aplicaciones.
+            </p>
+          </details>
+
+          <details class="detail-skill">
+            <summary class="my-point">mis conocientos</summary>
+            <p class="description-point">
+              A lo largo del tiempo pude estudiar diferentes tecnologías como
+              Html, css, sass y react como la base de la presentación de un
+              sitio web. y como JavaScript, typerscript node.js express.js
+              ademas de el uso de base de datos tanto SQL como NoSQL en la parte
+              de la funcion interna del la pagina o de aplicacion web
+            </p>
+          </details>
+
+          <details class="detail-skill">
+            <summary class="my-point">Mis objetivos</summary>
+            <p class="description-point">
+              Principalmente me gustario trabajar en el derrollo Web y si es
+              posible en otras area de la informatica como la ciber seguridad o
+              el desarrollo de video juegos. tambien expandir mis conociento en
+              lo que me gusta.
+            </p>
+          </details>
+
+          <details class="detail-skill">
+            <summary class="my-point">deseos</summary>
+            <p class="description-point">
+              Se que este tipo de trabajos se necesita experiencia para el un
+              senior en el desarrollo web o en otra area pero voy a darlo todo
+              para poder consequir mi objetivos.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const menuBtn = document.querySelector(".menu");
+      const dropdownMenu = document.querySelector(".dropdown-menu");
+
+      menuBtn.addEventListener("click", () => {
+        dropdownMenu.classList.toggle("open");
+      });
+
+      dropdownMenu.addEventListener("click", (e) => {
+        if (e.target.tagName === "A") {
+          dropdownMenu.classList.remove("open");
+        }
+      });
+    </script>
+  </body>
+</html>
